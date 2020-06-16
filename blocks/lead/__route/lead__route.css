@@ -1,0 +1,17 @@
+.lead__route {
+    margin-top: 64px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 1079px) {
+    .lead__route {
+
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    margin-top: 40px;
+}
