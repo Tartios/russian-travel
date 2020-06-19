@@ -14,6 +14,10 @@
     margin-left: 0;
 }
 
+.header__lang:hover {
+    opacity: .4;
+}
+
 @media screen and (max-width: 650px) {    
     .header__lang {
     font-size: 18px;
