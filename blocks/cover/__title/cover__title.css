@@ -5,14 +5,14 @@
     text-align: center;
     font-weight: 900; /* непонятно сколько нужно */ /* - это я себе писал, чтобы потом перепроверить и забыл)) */
     line-height: 76px;    
-    margin: 0;
+    margin: 0 0 32px;
     max-width: 560px;
     padding-top: 21%;
     z-index: 2;
     text-align: center;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 525px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;

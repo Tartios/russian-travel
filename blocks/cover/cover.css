@@ -45,7 +45,5 @@
 @media screen and (max-width: 650px) {
   .cover {
     margin-bottom: 64px;
-    background-image: url(../../images/cover-trains320.jpg);
-    max-height: 200px;
   }
 }
