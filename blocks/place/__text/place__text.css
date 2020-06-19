@@ -6,6 +6,10 @@
     align-self: baseline;        
 }
 
+.place__text:nth-child(2) {
+    margin: 0;
+}
+
 @media screen and (max-width: 1000px) {
     .place__text {
         font-size: 16px;

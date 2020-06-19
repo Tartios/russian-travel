@@ -12,12 +12,19 @@
 @media screen and (max-width: 1079px) {
     .lead {
         max-width: 928px;
-        margin: 48px 48px 0;        
+        margin: 48px 48px 92px;        
     }
 }
 
 @media screen and (max-width: 1023px) {
     .lead {
-        margin: 48px auto 0;
+        margin: 48px auto 88px;
     }
 }
+
+@media screen and (max-width: 722px) {
+    .lead {
+        margin: 48px 2px 64px;
+    }
+}
+

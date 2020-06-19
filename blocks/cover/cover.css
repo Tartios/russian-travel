@@ -29,10 +29,23 @@
   height: 100%;  
   background-color: rgba(42, 44, 47, .8);
   opacity: 0.5;
-  z-index: 1;
   transition: opacity 200ms ease-in-out;
 }
 
 .cover:hover::before {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 818px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cover {
+    margin-bottom: 64px;
+    background-image: url(../../images/cover-trains320.jpg);
+    max-height: 200px;
+  }
 }

@@ -3,12 +3,13 @@
     align-items: center; 
     font-size: 72px;
     text-align: center;
-    font-weight: 900; /* непонятно сколько нужно */
+    font-weight: 900; /* непонятно сколько нужно */ /* - это я себе писал, чтобы потом перепроверить и забыл)) */
     line-height: 76px;    
     margin: 0;
     max-width: 560px;
     padding-top: 21%;
     z-index: 2;
+    text-align: center;
 }
 
 @media screen and (max-width: 650px) {
@@ -16,5 +17,7 @@
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
+        padding: 0;
+        margin: 33px 16px 16px;
     }
 }
